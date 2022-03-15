@@ -1,5 +1,6 @@
 import time
 # Program Written by Thomas Wilson 15/03/2022
+print("Welcome to the babysitting program")
 loop = True
 inputs_1 = 0
 inputs_2 = 0
@@ -9,7 +10,6 @@ while loop:
     temp_age_1 = 0
     temp_age_2 = 0
     bad_answer = False
-    print("Welcome to the babysitting program")
     print("Which program is your child attending?\n(1): Fun in the Sun\n(2): Active Kids\n(X): Exit and view average")
     program = input("Response: ")
     if program == "1":
